@@ -92,6 +92,9 @@ function includesNumber(array, num) {
     if (num === array[0]) {
       return true;
     }
+    else {
+      return false;
+    }
 }
 
 
