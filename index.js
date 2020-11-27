@@ -88,6 +88,14 @@ function includesNumber(array, num) {
   if (array.length === 0) {
     return false;
   }
+  else if (array.length === 1) {
+    if (num === array[0]) {
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
   quicksort(array);
   let p = Math.floor(array.length / 2);
   if (array[p] === num) {
