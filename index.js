@@ -62,7 +62,11 @@ function maxOf(array) {
   }
 }
 
-function quicksort(array)
+function quicksort(array) {
+  if (array.length === 1) {
+    return array;
+  }
+}
 
 function includesNumber(arrary, num) {
   
