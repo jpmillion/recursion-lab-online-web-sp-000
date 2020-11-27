@@ -94,8 +94,8 @@ function includesNumber(array, num) {
     return true;
   }
   else if (array[p] > num) {
-    a = array.slice(0, p)
-    return includesNumber()
+    a = array.slice(0, p);
+    return includesNumber(a, num);
   }
 }
 
