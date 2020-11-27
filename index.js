@@ -78,7 +78,7 @@ function quicksort(array) {
         aR.push(array[i]);
       }
     }
-    return quicksort(aL), quicksort(aR)
+    return quicksort(aL).concat(p, quicksort(aR))
   }
 }
 
