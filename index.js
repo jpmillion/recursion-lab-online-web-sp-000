@@ -82,7 +82,7 @@ function quicksort(array) {
   }
 }
 
-quicksort([9, 6, 10, 15, 1, 8, 3, 4]);
+console.log(quicksort([9, 6, 10, 15, 1, 8, 3, 4]));
 
 function includesNumber(array, num) {
   
