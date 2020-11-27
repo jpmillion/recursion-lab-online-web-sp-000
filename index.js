@@ -96,6 +96,15 @@ function includesNumber(array, num) {
       return false;
     }
   }
+  else {
+    if (array[0] === num) {
+      return true;
+    }
+    else {
+      a = array.slice(1, array.length);
+      return includesNumber(a, num)
+    }
+  }
 }
 
 
