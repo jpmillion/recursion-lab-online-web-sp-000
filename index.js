@@ -61,3 +61,7 @@ function maxOf(array) {
     }
   }
 }
+
+function includesNumber(num) {
+  
+}
