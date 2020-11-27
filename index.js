@@ -92,28 +92,6 @@ function includesNumber(array, num) {
     if (num === array[0]) {
       return true;
     }
-    else {
-      return false;
-    }
-  }
-  else {
-    quicksort(array);
-    let p = Math.floor(array.length / 2);
-    if (array[p] === num) {
-      return true;
-    }
-    else if (array[p] > num) {
-      a = array.slice(0, p);
-      return includesNumber(a, num);
-    }
-    else {
-      if ((p+1) === 2 && array.length === 2) {
-        return false;
-      }
-      a = array.slice(p+1, array.length);
-      return includesNumber(a, num);
-    }
-  }
 }
 
 
