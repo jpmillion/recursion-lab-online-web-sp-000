@@ -102,7 +102,7 @@ function includesNumber(array, num) {
     }
     else {
       a = array.slice(1, array.length);
-      return includesNumber(a, num)
+      return includesNumber(a, num);
     }
   }
 }
