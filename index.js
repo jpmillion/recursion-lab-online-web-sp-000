@@ -70,10 +70,11 @@ function quicksort(array) {
     let aL = [];
     let aR = [];
     let p = array[0];
+    for (let i = 0; i < array.)
     
   }
 }
 
-function includesNumber(arrary, num) {
+function includesNumber(array, num) {
   
 }
