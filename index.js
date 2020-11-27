@@ -110,6 +110,7 @@ function includesNumber(array, num) {
       a = array.slice(p+1, array.length);
       return includesNumber(a, num);
     }
+  }
 }
 
 
