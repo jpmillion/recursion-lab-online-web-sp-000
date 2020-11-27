@@ -63,7 +63,7 @@ function maxOf(array) {
 }
 
 function quicksort(array) {
-  if (array.length === 1) {
+  if (array.length === 1 || array.length === 0) {
     return array;
   }
 }
