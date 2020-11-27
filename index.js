@@ -107,7 +107,7 @@ function includesNumber(array, num) {
       return includesNumber(a, num);
     }
     else {
-      if ((p+1) === 2) {
+      if ((p+1) === 2 && array.length === 2) {
         return false;
       }
       a = array.slice(p+1, array.length);
