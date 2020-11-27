@@ -67,6 +67,8 @@ function quicksort(array) {
     return array;
   }
   else {
+    let aL = [];
+    let aR = [];
     let p = array[0];
     
   }
