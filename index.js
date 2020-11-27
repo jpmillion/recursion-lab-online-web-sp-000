@@ -95,6 +95,7 @@ function includesNumber(array, num) {
     else {
       return false;
     }
+  }
 }
 
 
