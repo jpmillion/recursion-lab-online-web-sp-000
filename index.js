@@ -85,6 +85,9 @@ function quicksort(array) {
 
 
 function includesNumber(array, num) {
+  if (array.length === 0) {
+    return false;
+  }
   quicksort(array);
   let p = Math.floor(array.length / 2);
   if (array[p] === num) {
