@@ -97,6 +97,9 @@ function includesNumber(array, num) {
     a = array.slice(0, p);
     return includesNumber(a, num);
   }
+  else {
+    a = array.slice(p+1, array.length)
+  }
 }
 
 
