@@ -101,7 +101,7 @@ function includesNumber(array, num) {
       return true;
     }
     else {
-      a = array.slice(1, array.length);
+      let a = array.slice(1, array.length);
       return includesNumber(a, num);
     }
   }
