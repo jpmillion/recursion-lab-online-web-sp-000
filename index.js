@@ -63,7 +63,7 @@ function maxOf(array) {
 }
 
 function quicksort(array) {
-  if (array.length === 1 || array.length === 0) {
+  if (array.length < 2) {
     return array;
   }
   else {
@@ -78,7 +78,7 @@ function quicksort(array) {
         aR.push(array[i]);
       }
     }
-    return quicksort(aL).concat(p, quicksort(aR))
+    return quicksort(aL).concat(p, quicksort(aR));
   }
 }
 
