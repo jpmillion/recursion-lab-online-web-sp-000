@@ -98,8 +98,8 @@ function includesNumber(array, num) {
   }
   else {
     quicksort(array);
-    let p = Math.floor(array.length / 2) - 1;
-    if (array[p] === num || array[p-1] === num) {
+    let p = Math.floor(array.length / 2);
+    if (array[p] === num) {
       return true;
     }
     else if (array[p] > num) {
