@@ -74,6 +74,9 @@ function quicksort(array) {
       if (array[i] <= p) {
         aL.push(array[i]);
       }
+      else {
+        aR.push(array[i]);
+      }
     }
     
   }
