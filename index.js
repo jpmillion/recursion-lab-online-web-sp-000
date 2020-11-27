@@ -85,5 +85,6 @@ function quicksort(array) {
 
 
 function includesNumber(array, num) {
+  quicksort(array);
   
 }
