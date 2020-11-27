@@ -96,22 +96,20 @@ function includesNumber(array, num) {
       return false;
     }
   }
-  else if (array.length === 2) {
-    
-  }
-  quicksort(array);
-  let p = Math.floor(array.length / 2);
-  if (array[p] === num) {
-    return true;
-  }
-  else if (array[p] > num) {
-    a = array.slice(0, p);
-    return includesNumber(a, num);
-  }
   else {
-    a = array.slice(p+1, array.length);
-    return includesNumber(a, num);
-  }
+    quicksort(array);
+    let p = Math.floor(array.length / 2);
+    if (array[p] === num) {
+      return true;
+    }
+    else if (array[p] > num) {
+      a = array.slice(0, p);
+      return includesNumber(a, num);
+    }
+    else {
+      a = array.slice(p+1, array.length);
+      return includesNumber(a, num);
+    }
 }
 
 
