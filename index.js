@@ -71,7 +71,9 @@ function quicksort(array) {
     let aR = [];
     let p = array[0];
     for (let i = 1; i < array.length; i++) {
-      if (array)
+      if (array[i] <= p) {
+        aL.push(array[i]);
+      }
     }
     
   }
