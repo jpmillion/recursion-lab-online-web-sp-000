@@ -93,6 +93,10 @@ function includesNumber(array, num) {
   if (array[p] === num) {
     return true;
   }
+  else if (array[p] > num) {
+    a = array.slice(0, p)
+    return includesNumber()
+  }
 }
 
 
