@@ -115,6 +115,6 @@ function includesNumber(array, num) {
     }
   }
 }
-
+console.log(quicksort([1,4,2,3]))
 console.log(includesNumber([1, 4, 2, 3], 5));
 
